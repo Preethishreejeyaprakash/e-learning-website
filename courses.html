@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Courses - E-Learning Platform</title>
+    <link rel="stylesheet" href="courses.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Our Courses</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Our Courses</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Courses Section -->
+    <section id="courses">
+      <h2>Our Courses</h2>
+      <p>
+        Explore our wide range of courses designed for learners of all levels.
+        Click below to see the full list of courses:
+      </p>
+      <a href="courses.html" class="view-courses-button">View All Courses</a>
+    </section>
+
+    <section id="courses">
+      <h2>Browse Our Available Courses</h2>
+      <div class="course-list">
+        <div class="course-item">
+          <h3>Introduction to HTML</h3>
+          <p>Learn the basics of HTML and how to structure a webpage.</p>
+          <button onclick="viewCourse('Introduction to HTML')">
+            View Course
+          </button>
+        </div>
+        <div class="course-item">
+          <h3>Styling with CSS</h3>
+          <p>Explore how to style your webpage using CSS.</p>
+          <button onclick="viewCourse('Styling with CSS')">View Course</button>
+        </div>
+        <div class="course-item">
+          <h3>JavaScript Essentials</h3>
+          <p>
+            Understand JavaScript fundamentals and how to make your site
+            interactive.
+          </p>
+          <button onclick="viewCourse('JavaScript Essentials')">
+            View Course
+          </button>
+        </div>
+        <!-- Add more courses as needed -->
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 E-Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="courses.js"></script>
+  </body>
+</html>

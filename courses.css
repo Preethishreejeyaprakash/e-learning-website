@@ -1,0 +1,281 @@
+/* General Page Styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #4caf50;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Course Content Section Styling */
+section#courses {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Course List Styling */
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.course-item {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.course-item:hover {
+  transform: scale(1.05);
+  background-color: #eef7ee;
+}
+
+.course-item h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.course-item p {
+  color: #666;
+  font-size: 14px;
+}
+
+.course-item button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.course-item button:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  header nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+  }
+
+  section#courses {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .course-item h3 {
+    font-size: 18px;
+  }
+
+  .course-item p,
+  .course-item button {
+    font-size: 14px;
+  }
+}
+
+/* General Page Styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #4caf50;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Course Content Section Styling */
+section#course-content {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section#course-content h2 {
+  color: #4caf50;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section#course-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+section#course-content ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+section#course-content ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 160px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  header nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+  }
+
+  section#course-content {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  section#course-content h2 {
+    font-size: 20px;
+  }
+
+  section#course-content p,
+  section#course-content ul li {
+    font-size: 14px;
+  }
+}
+view-courses-button:hover {
+  background-color: #45a049;
+}
